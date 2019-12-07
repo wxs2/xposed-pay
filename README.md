@@ -14,6 +14,6 @@
 - 系统7x24稳定运行，无须经常重启客户端
 
 ### 系统效果图
-![enter image description here](https://raw.githubusercontent.com/wxs2/xposed-pay/blob/master/home.png)
-![enter image description here](https://raw.githubusercontent.com/wxs2/xposed-pay/blob/master/demo2.png)
-![enter image description here](https://raw.githubusercontent.com/wxs2/xposed-pay/blob/master/order-list.png)
+![enter image description here](https://raw.githubusercontent.com/wxs2/xposed-pay/master/home.png)
+![enter image description here](https://raw.githubusercontent.com/wxs2/xposed-pay/master/demo2.png)
+![enter image description here](https://raw.githubusercontent.com/wxs2/xposed-pay/master/order-list.png)

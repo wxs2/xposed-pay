@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">UKAFU</string>
+    <string name="app_name2">UKAFU安卓监控</string>
+    <string name="app_desc">UKAFU安卓监控</string>
+    <string name="app_desc2">监控程序</string>
+    <string name="action_help">帮助</string>
+    <string name="action_bindcode">获取绑定码</string>
+    <string name="action_setting">设置</string>
+    <string name="action_exitapp">退出</string>
+    <string name="action_apiset">自定义接口</string>>
+    <string name="action_runtime">日志</string>>
+    <!--<string name="title_activity_login">登录</string>-->
+
+    <!-- Strings related to login -->
+    <string name="action_sign_in">登录</string>
+    <string name="action_confirm">确定</string>
+    <string name="action_to_open">"支付服务"</string>
+    <string name="action_to_sms">"监控短信"</string>
+    <string name="action_to_wx">微信</string>
+    <string name="action_to_zfb">支付宝</string>
+    <string name="action_to_web">服务中心</string>
+    <string name="action_to_privileges">服务权限</string>
+    <string name="action_open_setting">打开权限设置</string>
+    <string name="action_to_mute">静音</string>
+    <string name="action_order">订单管理</string>
+    <string name="action_qrcode">二维码管理</string>
+    <string name="action_merchant">商户密钥</string>
+    <string name="action_get_token">获取Token</string>
+    <string name="textOn">开启</string>
+    <string name="textOff">关闭</string>
+    <string name="app_id">appid</string>
+    <string name="app_token">token</string>
+    <string name="login_help">\n1:点击获取Token,捐赠1元可以获取一个TOKEN</string>
+    <string name="title_activity_log">日志记录</string>
+
+    <!-- Strings related to register -->
+    <string name="prompt_mobile">手机号</string>
+    <string name="prompt_password">密码</string>
+    <string name="action_sign_in_short">注册</string>
+    <string name="error_invalid_mobile">手机号无效</string>
+    <string name="error_invalid_password">密码太短</string>
+    <string name="error_field_required">不能为空</string>
+    <string name="notify_content">个人收款运行中</string>
+    <string name="title_activity_qrcode">二维码管理</string>
+    <string name="dummy_button">添加二维码</string>
+    <string name="dummy_content">没有可用二维码\n请添加二维码</string>
+    <string name="title_activity_merchant">商户密钥</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_qrcode_upload">二维码上传</string>
+    <string name="title_activity_setting">SettingActivity</string>
+
+    <!-- Strings related to setting -->
+    <string name="label_server">服务器地址</string>
+    <string name="label_appid">App Id</string>
+    <string name="label_notice_uri">通知服务器地址</string>
+    <string name="label_secret">密钥</string>
+    <string name="msg_please_input_right_host_url">请正确输入通知服务器服务器地址</string>
+    <string name="title_activity_init">UKAFU</string>
+
+
+</resources>

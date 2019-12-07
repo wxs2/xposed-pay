@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.zhiyi.ukafu.QrcodeUploadActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            app:srcCompat="@drawable/example_picture" />
+
+        <EditText
+            android:id="@+id/txt_money"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="金额"
+            android:hint="二维码面额,未指定金额写0"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:paddingLeft="2dp" />
+
+        <EditText
+            android:id="@+id/txt_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="Name"
+            android:hint="收款人名称,如果大额可能需要验证姓名"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/txt_url"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="Name"
+            android:hint="二维码值"
+            android:ems="10"
+            android:inputType="text" />
+
+
+        <Button
+            android:id="@+id/btn_upload"
+            style="@style/Widget.AppCompat.Button.Small"
+            android:background="@android:color/holo_green_dark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="上传" />
+
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

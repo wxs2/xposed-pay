@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:text="价格:"
+        android:textAlignment="center" />
+    <TextView
+        android:id="@+id/qr_money"
+        android:layout_width="60dp"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/img_zfb"
+        android:layout_alignParentStart="true"
+        android:text="1" />
+
+    <ImageView
+        android:id="@+id/img_zfb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@+id/price"
+        app:srcCompat="@drawable/zfb" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/img_zfb"
+        android:layout_alignTop="@+id/img_zfb"
+        android:text="二维码数" />
+    <TextView
+        android:id="@+id/qr_zfb_num"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_toEndOf="@+id/img_zfb"
+        android:layout_alignBottom="@+id/img_zfb"
+        android:text="0" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/img_zfb"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/qr_zfb_num"
+        android:text="二维码类型" />
+
+    <TextView
+        android:id="@+id/qr_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/img_zfb"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toEndOf="@+id/qr_zfb_num"
+        android:text="0"
+        android:textAlignment="center" />
+
+</RelativeLayout>

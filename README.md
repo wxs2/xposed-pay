@@ -16,6 +16,6 @@
 - 交付有详细说明文档，后期安装部署、源码解释、二次开发有任何问题均可以来问我。
 
 ### 系统效果图
-![enter image description here](https://raw.githubusercontent.com/wxs2/xposed-pay/master/home.png)
+![enter image description here](http://pay.changu.net/static/home.png)
 ![enter image description here](https://raw.githubusercontent.com/wxs2/xposed-pay/master/demo2.png)
 ![enter image description here](https://raw.githubusercontent.com/wxs2/xposed-pay/master/order-list.png)

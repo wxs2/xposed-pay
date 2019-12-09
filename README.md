@@ -1,7 +1,7 @@
 ## 微信，支付宝，云闪付个人免签支付系统
 
 #### [免签支付测试页面(点我跳转)](http://pay.changu.net/pay) 
-咨询QQ：497596754 [![enter image description here](http://wpa.qq.com/pa?p=2:497596754:51)](http://wpa.qq.com/msgrd?v=3&uin=497596754&site=qq&menu=yes)
+联系作者： [![enter image description here](http://wpa.qq.com/pa?p=2:497596754:51)](http://wpa.qq.com/msgrd?v=3&uin=497596754&site=qq&menu=yes)
 
 ### 目前支持如下免签支付：
  - **微信二维码** 、**支付宝二维码**、**支付宝红包**、**支付宝主动收款**、**支付宝银行卡**、**云闪付**
